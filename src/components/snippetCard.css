@@ -1,0 +1,61 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: #f2f2f2;
+    text-align: center;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+    width: 1000px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #D3D3D3;
+  }
+  .cardClick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+    z-index: 5;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #D3D3D3;
+    position: absolute;
+  }
+  .incard {
+    width: 100%;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D3D3D3;
+    cursor: pointer;
+  }
+  .left {
+    padding-left: 10px;
+  }
+  .right {
+    align-self: center;
+    padding-right: 10px;
+  }
+  .bottom{
+    display: flex;
+    flex: 1;
+    position: relative;
+  }
+  .corner {
+    position: absolute;
+    margin-bottom: 2px;
+    margin-left: 970px;
+    align-self: flex-end;
+    justify-self: flex-end;
+  }

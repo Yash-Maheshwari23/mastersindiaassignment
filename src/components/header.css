@@ -1,0 +1,35 @@
+.bg{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: relative;
+    width: '100%';
+    margin-top: 0;
+    height: 80px;
+}
+.search{
+    background-color: beige;
+    border: 1px solid #808080;
+    height: 50px;
+    width: 600px;
+    border-radius: 50px;
+    display: flex;
+    position: relative;
+}
+.input{
+    padding-left: 5px;
+    border: 0px;
+    background-color: beige;
+    width: 600px;
+    border-radius: 50px;
+}
+.input:focus{
+    border: 0px;
+    outline: none;
+}
+.icon{
+    position: absolute;
+    right: 5px;
+}
